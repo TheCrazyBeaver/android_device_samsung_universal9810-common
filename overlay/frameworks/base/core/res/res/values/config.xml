@@ -145,13 +145,13 @@
     <bool name="config_animateScreenLights">true</bool>
     <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
     <integer-array name="config_longPressVibePattern">
-        <item>7</item>
+        <item>12</item>
     </integer-array>
     <integer-array name="config_virtualKeyVibePattern">
-        <item>7</item>
+        <item>12</item>
     </integer-array>
     <integer-array name="config_keyboardTapVibePattern">
-        <item>7</item>
+        <item>12</item>
     </integer-array>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
@@ -160,4 +160,6 @@
     <string name="db_default_sync_mode" translatable="false">OFF</string>
     <string name="db_wal_sync_mode" translatable="false">OFF</string>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <integer name="config_deviceHardwareKeys">73</integer>
+    <integer name="config_deviceHardwareWakeKeys">73</integer>
 </resources>
